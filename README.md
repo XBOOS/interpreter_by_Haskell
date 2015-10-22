@@ -16,6 +16,8 @@ Happy will take this grammar file and generate a Haskell module that provides a 
 happy Parser.y #to generate the parser Parser.hs
 ```
 
+# Process
+
 + version1.0    
 	Only implementing a simple calculator.  
 	Input: calc command+ String of arithmetic expressions.
