@@ -1,4 +1,4 @@
-# interpreter\_by\_Haskell
+# Interpreter\_by\_Haskell
 A simple interpreter for  self-defined programming language implemented by Haskell.  
 It will be implemented in a progressive way with different features and datatypes added. 
 
@@ -18,8 +18,7 @@ happy Parser.y #to generate the parser Parser.hs
 
 # Process
 
-+ version1.0    
-	Only implementing a simple calculator.  
++ version1.0  -  a simple calculator.  
 	Input: calc command+ String of arithmetic expressions.
 	Output: the Either value with Left String|Right Int
 	
@@ -37,6 +36,7 @@ happy Parser.y #to generate the parser Parser.hs
 	Right 29
 	```
 
-
++ version2.0 - adding local variables
+	The Value are just 
 
 
